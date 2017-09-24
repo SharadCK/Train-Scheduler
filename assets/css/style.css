@@ -1,0 +1,9 @@
+.jumbotron {
+	margin-top: 25px;
+	margin-left:  55px;
+	margin-right: 55px;
+	background-color: light blue;
+	color: light blue;
+	text-align:  center;
+	border-radius: 10px;
+}
