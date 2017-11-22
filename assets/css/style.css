@@ -1,3 +1,8 @@
+body {
+	background-image: url("../images/train.jpg");
+	padding: 1vw;
+}
+
 .jumbotron {
 	margin-top: 25px;
 	margin-left:  55px;

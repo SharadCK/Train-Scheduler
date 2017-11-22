@@ -1,6 +1,6 @@
  
 // Initialize Firebase
-  var config = {
+ var config = {
     apiKey: "AIzaSyAD3ZSeSJ0t8H2GRA_VPNy6-BxpihXAeXQ",
     authDomain: "train-time-6799f.firebaseapp.com",
     databaseURL: "https://train-time-6799f.firebaseio.com",
@@ -9,7 +9,6 @@
     messagingSenderId: "744709922769"
   };
   firebase.initializeApp(config);
-
 
   var database = firebase.database();
 
@@ -51,7 +50,7 @@ $("#user-add-train").on("click", function() {
 });
 
 // Add New Train to Firebase
-database.ref("/Train").on("child_added", function( x, y) {
+database.ref("/Train-time").on("child_added", function( x, y) {
 
   // Store everything into a variable.
   var nameOfTrain = x.val().name;
